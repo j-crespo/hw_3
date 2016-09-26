@@ -1,0 +1,26 @@
+function setup() {
+  createCanvas(500, 500);
+  background(255);
+}
+
+function draw() {
+// line (10, 0, 10, 10);
+// line (15, 0, 15, 20);
+// line (20, 0, 20, 30);
+// line (25, 0, 25, 40);
+// line (30, 0, 30, 50);
+// line (35, 0, 35, 60);
+  
+  for (var i = 5; i <= 495; i = i + 5) {
+    var sX = i;
+    var sY = 0;
+    var eX = i;
+    var eY = 500;
+    line (sX, sY, eX, eY);
+  }
+  
+  noStroke();
+  triangle (0, 0, 0, 500, 250, 500);
+  
+  
+}
