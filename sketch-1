@@ -1,0 +1,21 @@
+function setup() {
+  createCanvas(500,500);
+  background(255)
+}
+
+function draw() {
+
+// line (20, 480, 250, 20);
+// line (30, 480, 250, 20);
+// line (40, 480, 250, 20);
+
+
+
+for (var i = 20; i <= 480; i = i + 10) {
+  var sX = i;
+  var sY = 480;
+  var eX = 250;
+  var eY = 20;
+  line (sX, sY, eX, eY);
+  } 
+}
